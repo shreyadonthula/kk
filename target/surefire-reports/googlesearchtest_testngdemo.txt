@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: googlesearchtest_testngdemo
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 9.349 s <<< FAILURE! - in googlesearchtest_testngdemo
+googlesearch(googlesearchtest_testngdemo)  Time elapsed: 1.916 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TWLAHP-0241', ip: '10.19.250.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\I11200~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dc79878bff0d3aa260bf33ef3a9fbbf5
+*** Element info: {Using=name, value=q}
+	at googlesearchtest_testngdemo.googlesearch(googlesearchtest_testngdemo.java:20)
+
+teardowntest(googlesearchtest_testngdemo)  Time elapsed: 3.934 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TWLAHP-0241', ip: '10.19.250.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\I11200~2\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: dc79878bff0d3aa260bf33ef3a9fbbf5
+	at googlesearchtest_testngdemo.teardowntest(googlesearchtest_testngdemo.java:27)
+
