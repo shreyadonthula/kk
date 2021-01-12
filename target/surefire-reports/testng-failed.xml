@@ -3,13 +3,13 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="googlesearchtest_testngdemo">
+      <class name="AD_DE_Page_testng">
         <methods>
-          <include name="setuptest"/>
           <include name="teardowntest"/>
+          <include name="setuptest"/>
           <include name="googlesearch"/>
         </methods>
-      </class> <!-- googlesearchtest_testngdemo -->
+      </class> <!-- AD_DE_Page_testng -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

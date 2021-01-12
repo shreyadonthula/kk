@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name=".googlesearchtes_testngdemo"/>
+      <class name=".AD_DE_Page_testng"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
